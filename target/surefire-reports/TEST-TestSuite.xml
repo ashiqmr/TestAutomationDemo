@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.766" tests="8" errors="0" skipped="7" failures="1">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="maven.conf" value="C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4/conf"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vipin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="vipin"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vipin\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="E:\Ashiq\selenium-java-lite-main\selenium-java-lite-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Ashiq\selenium-java-lite-main\selenium-java-lite-main"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\vipin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\apache-maven-3.9.4-bin\apache-maven-3.9.4\lib\jansi-native"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="setup" classname="com.google.tests.RegisteredCustomersTest" time="4.607">
+    <failure message="Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: driver.version: EdgeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: EdgeDriver
+	at com.google.tests.RegisteredCustomersTest.setup(RegisteredCustomersTest.java:31)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting Microsoft Edge WebDriver 116.0.1938.54 (e584466f74bf872ad84fcd188ddc4b60fd2ec646) on port 27681
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Aug 24, 2023 11:49:11 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Invalid Status code=403 text=Forbidden
+java.io.IOException: Invalid Status code=403 text=Forbidden
+	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
+	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
+	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+]]></system-err>
+  </testcase>
+  <testcase name="launchURL" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchURL" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchURL" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateForgotPassword" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped message="Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="validateLogin" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped message="Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="validateSignOut" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped message="Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.google.tests.RegisteredCustomersTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

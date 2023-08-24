@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 4.766 s <<< FAILURE! - in TestSuite
+setup(com.google.tests.RegisteredCustomersTest)  Time elapsed: 4.607 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:62973/devtools/browser/84daed03-d90d-4855-907d-22047a489e0f
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: EdgeDriver
+	at com.google.tests.RegisteredCustomersTest.setup(RegisteredCustomersTest.java:31)
+

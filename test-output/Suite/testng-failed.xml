@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegisteredCustomersTest(failed)">
+    <classes>
+      <class name="com.google.tests.RegisteredCustomersTest">
+        <methods>
+          <include name="setup"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+          <include name="validateForgotPassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.google.tests.RegisteredCustomersTest -->
+    </classes>
+  </test> <!-- RegisteredCustomersTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
